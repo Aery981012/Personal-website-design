@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  height: 100%;
+  background: #0B0C10;
+}
+
+.column {
+  font-color:turqoise;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #1F2833;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #66FCF1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #45A29E;
+  color: #66FCF1;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #0B0C10;
+  padding-left: 20px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 40px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: #66FCF1;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.footer {
+ 
+  padding: 10px;
+  color: #66FCF1;
+  text-align: center;
+  background: #1F2833;
+ 
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+</style>
+</head>
+<body>
+
+<header>
+	<h1><image src="images/imageheader.png" alt="Aery's Image Header"width=1200 height=350></h1>
+</header>
+
+<div class="topnav">
+
+  	<a href="index.html">Home</a>
+	<a href="exp.html">Working Experience</a>
+	<a href="education.html">Education</a>
+	<a href="technicalskills.html">Technical Skills</a>
+  	<a href="interest.html">Self Interest</a>
+	<a href="gallery.html">Gallery</a>
+</div>	
+<div class="row">
+<div class="column">
+  <a target="_blank" href="images/awards.jpg">
+    <img src="images/awards.jpg" alt="awards" width="500" height="400">
+  </a>
+  <div class="desc">Malaysian Website Awards in Best Web Design Animation 2019</div>
+</div>
+
+<div class="row">
+<div class="column">
+<a target="_blank" href="images/awards2.jpg">
+    <img src="images/awards2.jpg" alt="awards" width="500" height="400">
+  </a>
+  <div class="desc">esigned an SEO-optimized website for a SaaS company</div>
+</div>
+
+<div class="row">
+<div class="column">
+  <a target="_blank" href="images/dota.jpg">
+    <img src="images/dota.jpg" alt="games" width="500" height="400">
+  </a>
+  <div class="desc">Favorite games</div>
+</div>
+
+<div class="row">
+<div class="column">
+  <a target="_blank" href="images/travel.jpg">
+    <img src="images/travel.jpg" alt="travel" width="500" height="400">
+  </a>
+  <div class="desc">2021 Travel destination</div>
+</div>
+
+<div class="row">
+<div class="column">
+<a target="_blank" href="images/music.jpg">
+    <img src="images/music.jpg" alt="awards" width="500" height="400">
+  </a>
+  <div class="desc">Favourite Band</div>
+</div>
+
+</div>
+</div>
+<div class="footer">
+<p>Author&Designer: Aery Garney Anak Francis<br>
+  <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">aerygarney123@gmail.com</a></p>
+
+
+</body>
+</html>     
+
